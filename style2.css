@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to right, #17C6E2, #C234F6, #C817E2);
+}
+
+.welcome-container {
+    background-color: white;
+    width: 615px;
+    height: 350px;
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 0.5px 0.5px 0.5px black;
+    flex-direction: column;
+    padding: 15px;
+    position: relative;
+}
+
+.all-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 45px;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+.welcome-text {
+    align-self: flex-end;
+    margin-top: 100px;
+    font-size: 1.3rem;
+    color: #333333;
+}
+
+.quad-1 {
+    background: linear-gradient(to right, #1bc2e3a8, #8f4fe39d);
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 100px;
+    top: 70px;
+}
+
+.quad-2 {
+    background: linear-gradient(to right, #8f4fe39d, #c717e279);
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 70px;
+}
+
+.dupla-quad {
+    display: flex;
+}
+
+.fuction {
+    list-style: square;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 10px;
+}
+
+.fuction li:hover {
+    cursor: pointer;
+    color: #C05FF4;
+    transition: all 350ms ease;
+}
+
+.fuction li {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+#seta {
+    background-color: white;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.back-circle {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 50%;
+}
+
+a {
+    color: transparent;
+}
