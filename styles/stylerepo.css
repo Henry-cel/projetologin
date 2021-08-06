@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+.project {
+    background-color: #2c2c2c;
+    width: 350px;
+    height: 650px;
+    margin: 50px auto auto auto;
+    color: white;
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.projects li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.list-projects h1 {
+    text-align: center;
+}
+
+.projects {
+    margin-top: 15px;
+    margin-left: 45px;
+    list-style: none;
+}
+
+.projects li {
+    margin-bottom: 10px;
+}
+
+.list-projects {
+    padding-top: 50px;
+}
+
+.perfil {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 150px auto auto auto;
+    border: 5px solid grey;
+}
+
+.img {
+    display: flex;
+}
+
+.brazil-flag {
+    width: 30px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.dev {
+    display: flex;
+    margin-left: 15px;
+    margin-top: 20px;
+    color: white;
+}
+
+#dev {
+    font-weight: bold;
+}
