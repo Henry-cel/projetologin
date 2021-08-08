@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #E0E8FF;
+}
+
+.container-all {
+    max-width: 448px;
+    min-width: 350px;
+    width: 90%;
+    height: 658px;
+    margin: 50px auto 100px auto;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.img-ilu {
+    max-width: 448px;
+    min-width: 300px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: white;
+    height: 220px;
+}
+
+.container-info {
+    max-width: 448px;
+    min-width: 300px;
+    width: 100%;
+    background-color: white;
+    height: 425px;
+    padding-top: 25px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: -3px;
+}
+
+.container-info h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+.container-info .p1 {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 0.99rem;
+    color: #7280A7;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-indent: 5px;
+    letter-spacing: 1px;
+}
+
+.container-plan {
+    background-color: #F9FAFB;
+    max-width: 392px;
+    min-width: 250px;
+    width: 100%;
+    height: 95px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    display: flex;
+}
+
+.img-plan {
+    padding-top: 20.4px;
+    padding-left: 15px;
+}
+
+.anual {
+    padding-left: 15px;
+    padding-top: 24px;
+}
+
+.a {
+    font-weight: bold;
+    color: #1F2F56;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.p {
+    color: #7280A7;
+    font-family: 'Roboto', sans-serif;
+}
+
+.change {
+    padding-left: 150px;
+    font-size: 1.05rem;
+    padding-top: 35px;
+    text-decoration: underline;
+    color: blue;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    width: 100px;
+    height: 50px;
+}
+
+.change:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: #6366F1;
+}
+
+.payment {
+    background-color: blue;
+    max-width: 408px;
+    min-width: 300px;
+    width: 100%;
+    height: 55px;
+    margin: 55px auto auto auto;
+    border-radius: 15px;
+}
+
+.payment p {
+    padding-top: 17px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.payment:hover {
+    background-color: #6366F1;
+    cursor: pointer;
+}
+
+.cancel p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-top: 25px;
+}
+
+.cancel p:hover {
+    color: black;
+    cursor: pointer;
+}
