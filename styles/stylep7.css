@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(168, 168, 235);
+    font-family: 'Roboto', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+    box-shadow: inset 00 10px rgba(0, 0, 0, 0.25);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: rgb(135, 135, 185);
+}
+
+.all {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 110px;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.a {
+    max-width: 984px;
+    min-width: none;
+    width: 100%;
+}
+
+.box1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* Perfis */
+
+.perfil-1 {
+    max-width: 574px;
+    min-width: 300px;
+    width: 100%;
+    max-height: 500px;
+    min-height: 254px;
+    background-color: rgb(128, 50, 218);
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.perfil-2 {
+    max-width: 350px;
+    min-width: 218px;
+    width: 100%;
+    max-height: 500px;
+    min-height: 254px;
+    background-color: rgb(74, 74, 88);
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.perfil-3 {
+    max-width: 350px;
+    min-width: 218px;
+    width: 100%;
+    max-height: 500px;
+    min-height: 254px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.perfil-4 {
+    max-width: 574px;
+    min-width: 300px;
+    width: 100%;
+    max-height: 500px;
+    min-height: 254px;
+    background-color: rgb(15, 15, 31);
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.perfil-5 {
+    max-width: 350px;
+    min-width: 218px;
+    width: 100%;
+    max-height: 558px;
+    min-height: 558px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    margin: 15px;
+}
+
+
+/* Perfils Settings */
+
+img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 3px solid gray;
+}
+
+.img-perfil {
+    display: flex;
+    color: white;
+}
+
+.img-perfil3 {
+    display: flex;
+    color: black;
+}
+
+.img-perfil5 {
+    display: flex;
+    color: black;
+}
+
+.img-perfil3 p {
+    margin-top: 5px;
+    margin-left: 8px;
+    font-size: 0.89rem;
+}
+
+.img-perfil5 p {
+    margin-top: 5px;
+    margin-left: 8px;
+    font-size: 0.89rem;
+}
+
+.img-perfil p {
+    margin-top: 5px;
+    margin-left: 8px;
+    font-size: 0.89rem;
+}
+
+.text-perfil {
+    color: rgba(255, 255, 255, 0.521);
+    margin-left: 54px;
+    margin-top: -19px;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.text-perfil3 {
+    color: rgba(0, 0, 0, 0.384);
+    margin-left: 54px;
+    margin-top: -19px;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.text-perfil5 {
+    color: rgba(0, 0, 0, 0.411);
+    margin-left: 54px;
+    margin-top: -19px;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.p1 {
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.p2 {
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.p3 {
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.p4 {
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.p5 {
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.text-summary {
+    margin-top: 18px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.text-summary3 {
+    margin-top: 18px;
+    color: rgba(0, 0, 0, 0.63);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.text-summary5 {
+    margin-top: 18px;
+    color: rgba(0, 0, 0, 0.63);
+    font-size: 1.4rem;
+    font-weight: bolder;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.text {
+    margin-top: 12px;
+    color: rgba(255, 255, 255, 0.61);
+    font-size: 0.75rem;
+    text-align: justify;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 15px;
+}
+
+.text2 {
+    margin-top: 12px;
+    color: rgba(255, 255, 255, 0.61);
+    font-size: 0.75rem;
+    text-align: justify;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 15px;
+}
+
+.text3 {
+    margin-top: 12px;
+    color: rgba(0, 0, 0, 0.425);
+    font-weight: bold;
+    font-size: 0.95rem;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 17px;
+}
+
+.text5 {
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.425);
+    font-weight: bold;
+    font-size: 0.87rem;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 17px;
+}
