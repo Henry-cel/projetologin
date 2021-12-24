@@ -1,0 +1,124 @@
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            body {
+                background-color: rgb(241, 238, 238);
+                font-family: 'Roboto', sans-serif;
+            }
+            /* Text-introduction */
+            
+            .text-introduction {
+                max-width: 470px;
+                min-width: 350px;
+                width: 100%;
+                text-align: center;
+                margin-top: 15px;
+            }
+            
+            .all-text {
+                display: flex;
+                justify-content: center;
+            }
+            
+            .first-text {
+                font-size: 30px;
+                font-weight: 300;
+            }
+            
+            .second-text {
+                font-size: 31px;
+                font-weight: bold;
+            }
+            /* Central-content */
+            
+            .central-content {
+                display: flex;
+                flex-wrap: wrap;
+                max-width: 1150px;
+                min-width: 250px;
+                width: 100%;
+                margin-top: 20px;
+                max-height: max-content;
+                min-height: 530px;
+                height: 100%;
+                justify-content: center;
+                margin-bottom: 170px;
+            }
+            
+            .all-content {
+                display: flex;
+                justify-content: center;
+            }
+            
+            .central-content div {
+                max-width: 330px;
+                min-width: 150px;
+                width: 100%;
+                background-color: white;
+                height: 250px;
+                border-radius: 5px;
+            }
+            
+            .central-content div h1 {
+                font-size: 20px;
+                margin-top: 15px;
+                margin-left: 15px;
+            }
+            
+            .central-content div p {
+                font-size: 14px;
+                font-weight: bold;
+                color: rgba(0, 0, 0, 0.288);
+                margin-top: 10px;
+                margin-left: 15px;
+            }
+            
+            .central-content div img {
+                margin-top: 70px;
+                margin-left: 250px;
+                width: 60px;
+                height: 60px;
+            }
+            
+            .supervisor p {
+                font-size: 14px;
+                font-weight: bold;
+                color: rgba(0, 0, 0, 0.288);
+                margin-top: 10px;
+            }
+            
+            .supervisor {
+                border-top: 5px solid rgb(94, 94, 253);
+                margin-top: 200px;
+            }
+            
+            .calculator {
+                border-top: 5px solid blue;
+                margin-top: 200px;
+            }
+            
+            .team-builder {
+                border-top: 5px solid red;
+                margin-bottom: 15px;
+            }
+            
+            .karma {
+                border-top: 5px solid orange;
+            }
+            
+            .two-content-all {
+                padding: 15px;
+                margin-bottom: 65px;
+            }
+            
+            .two-content-all div {
+                width: 330px;
+            }
+            
+            .two-content-all div img {
+                margin-left: 250px;
+            }

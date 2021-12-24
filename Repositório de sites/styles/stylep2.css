@@ -1,0 +1,145 @@
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .box-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+    
+    .box-1 {
+        width: 300px;
+        height: 450px;
+        background-color: #e28525;
+    }
+    
+    .box-2 {
+        width: 300px;
+        height: 450px;
+        background-color: #016972;
+    }
+    
+    .box-3 {
+        width: 300px;
+        height: 450px;
+        background-color: #00403f;
+    }
+    
+    div h1 {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        margin-top: 45px;
+        margin-left: 45px;
+    }
+    
+    div p {
+        color: rgba(255, 255, 255, 0.644);
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        margin-top: 25px;
+        margin-left: 45px;
+    }
+    
+    .b1 {
+        color: #e28525;
+        background-color: white;
+        text-decoration: none;
+        border: none;
+        width: 145px;
+        height: 45px;
+        border-radius: 35px;
+        font-weight: bold;
+        margin-top: 75px;
+        margin-left: 45px;
+    }
+    
+    .b1:hover {
+        cursor: pointer;
+    }
+    
+    .b2 {
+        color: #016972;
+        background-color: white;
+        text-decoration: none;
+        border: none;
+        width: 145px;
+        height: 45px;
+        border-radius: 35px;
+        font-weight: bold;
+        margin-top: 75px;
+        margin-left: 45px;
+    }
+    
+    .b2 {
+        cursor: pointer;
+    }
+    
+    .b3 {
+        color: #00403f;
+        background-color: white;
+        text-decoration: none;
+        border: none;
+        width: 145px;
+        height: 45px;
+        border-radius: 35px;
+        font-weight: bold;
+        margin-top: 75px;
+        margin-left: 45px;
+    }
+    
+    .b3 {
+        cursor: pointer;
+    }
+    
+    #change-color {
+        border: none;
+        margin-top: 20px;
+        margin-left: 20px;
+        background-color: white;
+        border: 2px solid black;
+        border-radius: 15px;
+        padding: 5px;
+        transition: all ease 300ms;
+        text-decoration: none;
+    }
+    
+    #change-color:hover {
+        border: 2px solid white;
+        background-color: #2C2C30;
+        color: white;
+        cursor: pointer;
+    }
+    
+    .img {
+        margin-top: 40px;
+        margin-left: 45px;
+        width: 60px;
+    }
+    
+    .brazil-flag {
+        width: 30px;
+        height: 20px;
+        margin-left: 10px;
+    }
+    
+    .dev {
+        display: flex;
+        margin-left: 15px;
+        margin-top: 100px;
+        color: rgba(0, 0, 0, 0.76);
+    }
+    
+    #dev {
+        font-weight: bold;
+    }
