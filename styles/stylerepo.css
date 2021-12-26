@@ -14,7 +14,7 @@ body {
     background-color: #2c2c2c;
     width: 350px;
     height: 650px;
-    margin: 50px auto auto auto;
+    margin: 20px auto auto auto;
     color: white;
     border-radius: 15px;
     padding-left: 5px;
@@ -67,10 +67,51 @@ body {
 .dev {
     display: flex;
     margin-left: 15px;
-    margin-top: 20px;
+    margin-top: 50px;
     color: white;
+    margin-bottom: 160px;
 }
 
 #dev {
     font-weight: bold;
+}
+
+.socials ul li i {
+    color: white;
+    font-size: 35px;
+    border-radius: 5px;
+}
+
+.socials ul li i:hover {
+    font-size: 37px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    transition: all ease 350ms;
+}
+
+.socials ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.socials ul li {
+    margin-left: 15px;
+}
+
+.socials {
+    background-color: gray;
+    padding-top: 10px;
+    width: 150px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    border-radius: 15px;
+    margin-left: 110px;
+}
+
+.all-socials {
+    display: flex;
+    justify-content: flex-start;
 }
