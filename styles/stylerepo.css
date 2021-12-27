@@ -122,10 +122,9 @@ body {
     padding-bottom: 10px;
     margin-top: 15px;
     border-radius: 15px;
-    margin-left: 110px;
 }
 
 .all-socials {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 }
