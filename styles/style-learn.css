@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/bg-intro-desktop.png);
+    background-color: rgba(255, 0, 0, 0.486);
+    font-family: 'Roboto', sans-serif;
+}
+
+.all-content {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.principal-text {
+    align-self: center;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 959px) {
+    .principal-text {
+        margin-top: 0px;
+    }
+}
+
+.principal-text .title h1 {
+    font-size: 53px;
+    max-width: 419.5px;
+    min-width: none;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media only screen and (max-width: 959px) {
+    .principal-text .title h1 {
+        font-size: 29px;
+    }
+}
+
+.principal-text .paragraph p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 15px;
+    max-width: 515.71px;
+    min-width: none;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.input-user-data {
+    display: flex;
+    flex-direction: column;
+}
+
+.free-claim {
+    background-color: #5D54A3;
+    color: rgba(255, 255, 255, 0.788);
+    border: none;
+    height: 50px;
+    max-width: 450px;
+    min-width: none;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.free-claim:hover {
+    cursor: pointer;
+}
+
+.free-claim span {
+    color: white;
+    font-weight: 600;
+}
+
+.user-data {
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    max-width: 480px;
+    min-width: none;
+    width: 100%;
+}
+
+.input-user-data input {
+    border: 1px solid rgba(0, 0, 0, 0.377);
+    height: 50px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.input-user-data input::placeholder {
+    padding-left: 25px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.404);
+}
+
+.claim {
+    background-color: rgb(0, 211, 11);
+    color: white;
+    border: none;
+    width: 100%;
+    height: 50px;
+    border-radius: 7px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.claim:hover {
+    cursor: pointer;
+}
+
+.terms {
+    font-size: 10px;
+    max-width: 399.83px;
+    min-width: none;
+    width: 100%;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.452);
+    font-weight: 600;
+    text-align: center;
+}
+
+.terms span {
+    color: red;
+}
+
+.terms span:hover {
+    cursor: pointer;
+}
+
+.claim-content {
+    margin-left: 15px;
+    margin-right: 15px;
+}
